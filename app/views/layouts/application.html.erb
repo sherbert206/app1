@@ -2,7 +2,7 @@
 <html>
   <head>
     <%= favicon_link_tag 'favicon1.ico' %>
-    <title><%= yield(:title) %> | Best App Ever B)</title>
+    <title><%= full_title(yield(:title)) %> | Best App Ever B)</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
